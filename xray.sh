@@ -5,13 +5,13 @@ cat << EOF > /etc/config.json
 {
   "inbounds":[
     {
-      "port": $PORT,
-      "protocol": "$PROTOCOL",
+      "port": 443,
+      "protocol": "vmess",
       "settings": {
         "decryption": "none",
         "clients": [
           {
-            "id": "$UUID"
+            "id": "dc8c3578-68d3-4548-8888-a69515100b3f"
           }
         ]
       },
