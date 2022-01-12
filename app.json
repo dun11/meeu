@@ -1,18 +1,18 @@
 {
-    "name": "xray-heroku",
-    "description": "deploy xray to heroku",
+    "name": "meeu",
+    "description": "vmess via websocket on heroku at Europe",
     "keywords": ["xray"],
     "env": {
         "UUID": {
             "description": "xray UUID",
-            "value": "c95ef1d4-f3ac-4586-96e9-234a37dda068"        
+            "value": "dc8c3578-68d3-4548-8888-a69515100b3f"        
         },
         "PROTOCOL": {
             "description": "xray protocol, vmess or vless",
             "value": "vmess"
         }
     },
-    "website": "https://starts.sh",
-    "repository": "https://github.com/yeahwu/xray-heroku",
+    "website": "dunnnn.com",
+    "repository": "https://github.com/dun11/meeu",
     "stack": "container"
 }
